@@ -1,0 +1,120 @@
+﻿<Window x:Class="U1CareersAidanM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U1CareersAidanM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="550">
+    <ScrollViewer>
+    <Grid>
+            <TabControl MinWidth="525">
+                <TabItem Header="University" MinWidth="75">
+                    <StackPanel HorizontalAlignment="Center">
+                        <Label Content="York University" Foreground="#FFFF0051" FontWeight="Bold" HorizontalAlignment="Center" FontSize="70"/>
+                        <Image Source="http://clublassonde.com/wp-content/uploads/2015/11/LassondeOnlyBlackSM.png" Width="450"/>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Program" MinWidth="75">
+                <StackPanel HorizontalAlignment="Center">
+                    <Label Content="York University" Foreground="#FFFF0046" FontWeight="Bold" FontSize="18"/>
+                    <Label Content="Lassonde School of Engineering" FontWeight="Bold"/>
+                    <Label Content="Computer Security Program - BSc"/>
+                    <Label Content="OUAC Code: YPR"/>
+                    <Label Content="Enrollment: 40" FontSize="16"/>
+                    <Label Content="The progam is not super competitve to get into, but because of low enrollment,"/>
+                    <Label Content="it is partially competitive."/>
+                        <Rectangle Height="25"/>
+                        <Label Content="Campus and residence information in 'Campus'" FontWeight="Bold" FontSize="14"/>
+                    </StackPanel>
+            </TabItem>
+                <TabItem Header="Campus" MinWidth="75">
+                    <StackPanel>
+                        <Label Content="The Lassonde School of Engineering at York University is located in north Toronto."/>
+                        <Label Content="Toronto is the biggest city in Canada.     Population: 2.8 million Area: 630.2 km²"/>
+                        <Rectangle Height="10"/>
+                        <Label Content="Costs" FontWeight="Bold"/>
+                        <Label Content="(maximum listed on their website for domestic students.)"/>
+                        <Label Content="  $21,466" FontSize="20"/>
+                        <Label Content="Housing" FontWeight="Bold"/>
+                        <Label Content="YorkU has 8 residences on their campus, with a variety of single, double, or suite rooms."/>
+                        <Label Content="Each residence is furnished, and has common areas, and a shared washroom (excluding Suites)"/>
+                    </StackPanel>
+                </TabItem>
+            <TabItem Header="Requirments" MinWidth="75">
+                <StackPanel HorizontalAlignment="Center">
+                    <Label Content="-ENG4U" FontWeight="Bold"/>
+                    <Label Content="-MHF4U" FontWeight="Bold"/>
+                    <Label Content="-SCH4U or SPH4U" FontWeight="Bold"/>
+                    <Label Content="-4U Math (MCV4U Recomended)" FontWeight="Bold"/>
+                    <Label Content="-An additonal 4U or 4M Course" FontWeight="Bold"/>
+                    <Label Content="-An additonal 4U or 4M Course" FontWeight="Bold"/>
+                    <Label Content="A minimum math average of 75% and no math grade below 65%"/>
+                    <Label Content="To gain admission to this program, your academic average should be in the mid-to-high 70s."/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Courses" MinWidth="75">
+                <StackPanel HorizontalAlignment="Center">
+                    <TabControl>
+                        <TabItem Header="First Year Courses">
+                            <StackPanel MinWidth="400">
+                                <Label Content="Introduction to Computer Science" HorizontalAlignment="Center" />
+                                <Label Content="Discrete Mathematics" HorizontalAlignment="Center" />
+                                <Label Content="Calculus" HorizontalAlignment="Center" />
+                                <Label Content="Computing" HorizontalAlignment="Center" />
+                                <Label Content="Algebra" HorizontalAlignment="Center" />
+                                <Label Content="Statistics" HorizontalAlignment="Center" />
+                                <Label Content="Foundational science (Physics,Chemistry or Biology, for BSc program)" HorizontalAlignment="Center" />
+                            </StackPanel>
+                        </TabItem>
+                        <TabItem Header="Upper Year Courses">
+                            <StackPanel MinWidth="400">
+                                    <Label Content="Upper years are 2 and 3, plus any additonal classes the student chooses to take" FontWeight="Bold"/>
+                                    <Label Content="Object Oriented Programming" HorizontalAlignment="Center" />
+                                    <Label Content="Net-Centric Computing" HorizontalAlignment="Center" />
+                                    <Label Content="Mobile App Development" HorizontalAlignment="Center" />
+                                    <Label Content="Computer Organization" HorizontalAlignment="Center" />
+                                    <Label Content="Software Tools" HorizontalAlignment="Center" />
+                                    <Label Content="Software Design" HorizontalAlignment="Center" />
+                                <Label Content="Design and Analysis of Algorithms" HorizontalAlignment="Center"/>
+                                <Label Content="Communication Networks" HorizontalAlignment="Center" />
+                                <Label Content="Operating System Design" HorizontalAlignment="Center" />
+                                <Label Content="Computer Security Management" HorizontalAlignment="Center" />
+                                <Label Content="Computer Security Lab" HorizontalAlignment="Center" />
+                                <Label Content="Introduction to Database Systems" HorizontalAlignment="Center" />
+                                <Label Content="Applied Cryptography" HorizontalAlignment="Center" />
+                                <Label Content="Building E-Commerce Systems" HorizontalAlignment="Center" />
+                                <Label Content="Computer Security Management and Forensics" HorizontalAlignment="Center" />
+                            </StackPanel>
+                        </TabItem>
+                            <TabItem Header="Internship" MinWidth="75">
+                                <StackPanel>
+                                    <Label Content="An internship is highly recomended and provided after the 3rd year of studies."/>
+                                </StackPanel>
+                            </TabItem>
+                    </TabControl>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Careers" MinWidth="75">
+                <StackPanel HorizontalAlignment="Center">
+                        <Label Content="Possible Career Paths" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+                        <Label Content="Cryptography" HorizontalAlignment="Center"/>
+                        <Label Content="Computer Forensics" HorizontalAlignment="Center"/>
+                        <Label Content="Information Security Law" HorizontalAlignment="Center"/>
+                        <Label Content="Security and Privacy Law" HorizontalAlignment="Center"/>
+                        <Label Content="Software Development" HorizontalAlignment="Center"/>
+                        <Label Content="Security Analysis" HorizontalAlignment="Center"/>
+                        <Label Content="Security Risk Assessment" HorizontalAlignment="Center"/>
+                        <Label Content="Security Audit" HorizontalAlignment="Center"/>
+                        <Label Content="User Experience and Interface Design" HorizontalAlignment="Center"/>
+                        <Label Content="Network Security" HorizontalAlignment="Center"/>
+                        <Label Content="Cloud Computing" HorizontalAlignment="Center"/>
+                        <Label Content="Data Mining" HorizontalAlignment="Center"/>
+                        <Label Content="Penetration Testing" HorizontalAlignment="Center"/>
+                        <Label Content="Security Audit" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+    </ScrollViewer>
+</Window>
